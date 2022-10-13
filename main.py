@@ -7,9 +7,7 @@ calc = int(input("input the divident/numerator: "))
 divident = int(input("input the divisor/denominator: "))
 divisor = calc
 while calc >= divident:
-	if calc >= divident:
-		calc -= divident
-		remainder += 1
-		print(divisor," divided by: ",divident," is equal to:")
-		print(remainder," with a remainder of: ",calc,".")
-	
+	calc -= divident
+	remainder += 1
+	print(divisor," divided by: ",divident," is equal to:")
+	print(remainder," with a remainder of: ",calc,".")
